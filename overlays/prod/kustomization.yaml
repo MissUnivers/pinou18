@@ -6,4 +6,9 @@ bases:
 
 namespace: prod
 
+patches:
+  - path: minimum-replicas.yaml
+    target:
+      kind: Deployment
+
 
